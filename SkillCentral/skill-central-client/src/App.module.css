@@ -1,0 +1,27 @@
+/* Import the background image */
+:global(body) {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 92vh;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow-x: hidden!important;
+  }
+  
+  /* Additional styles for content */
+  .container h1 {
+    font-size: 2em;
+  }
+  
+  

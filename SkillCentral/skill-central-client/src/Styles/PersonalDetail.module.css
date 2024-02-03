@@ -1,0 +1,52 @@
+.skill-card-screen {
+  margin: 10px 10px 10px 220px;
+  width: auto;
+    position: absolute;
+   
+    top: 146px;
+}
+
+.skill-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.skill-card {
+  border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 250px;
+    background-color: #e3f1ea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+.btn-style{
+  width:80px;
+}
+.gap-style{
+  padding: 3px;
+}
+.Heading{
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 110px;
+}
+.table-buttons {
+  position: fixed;
+  width: 100%;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,41 @@
+/* DynamicTable.css */
+
+.dynamic-table {
+    margin-left: 204px;
+    margin-right: 4px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .filter-options{
+    margin-left:220px;
+  }
+  .Heading{
+    text-align: center;
+    margin-top: 25px;
+    align-content: cen
+  }
+  .gap{
+    padding:11px
+  }
+  .table-buttons {
+    position: fixed;
+    width: 100%;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }

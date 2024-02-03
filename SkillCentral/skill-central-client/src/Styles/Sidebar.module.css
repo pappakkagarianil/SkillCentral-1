@@ -1,0 +1,42 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 59px;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .menu a:hover {
+    background-color: #555;
+  }
+  

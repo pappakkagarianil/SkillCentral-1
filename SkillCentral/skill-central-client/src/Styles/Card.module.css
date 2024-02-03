@@ -1,0 +1,41 @@
+/* ResponsiveCards.css */
+
+.responsive-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 319px;
+  margin: 46px 43px 39px -74px;
+}
+
+.card {
+  flex: 0 0 calc(33.33% - 20px); /* Set card width for a 3-column layout with margin */
+  margin: 0 0 20px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.card h2 {
+  color: #333;
+}
+
+.card p {
+  color: #666;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 calc(50% - 20px); /* Set card width for a 2-column layout on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 0 0 100%; /* Set card width to 100% on even smaller screens, for a single column layout */
+  }
+}

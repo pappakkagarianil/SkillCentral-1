@@ -1,0 +1,38 @@
+.filter-container {
+  display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    margin-bottom: 20px;
+    position: absolute;
+    width: 56%;
+    top: 74px;
+    right: 197px;
+}
+
+.filter-group {
+  flex: 1;
+  max-width: 200px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.btn{
+  cursor: pointer;
+    height: 0%;
+    width: 10%;
+    margin: 25px 10px 10px 8px;
+}

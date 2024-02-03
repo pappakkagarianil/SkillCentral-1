@@ -1,0 +1,51 @@
+/* SkillAdmin.css */
+
+.skill-admin-container {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 28px;
+}
+
+.skill-list {
+  width: 40%;
+  margin: auto;
+}
+
+.skill-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.add-skill {
+  width: 40%;
+  margin: auto;
+}
+.remove-skill-btn{
+  width: 40%;
+  margin: auto;
+}
+.add-skill-btn{
+  width: 40%;
+  margin: auto;
+}
+
+.add-skill input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.add-skill button {
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
